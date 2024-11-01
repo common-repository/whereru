@@ -1,0 +1,106 @@
+/*
+CSS Name: Whereru Admin Styles
+Description: Default WhereRU!? Admin Stylesheet
+Author: Ray Gomez
+Version: 1.0
+*/
+
+#whereru_tabs {
+    max-width: 600px;
+}
+
+ul.tabs {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.tabs li {
+	list-style: none;
+	float: left; 
+	padding-right: 5px;
+}
+	
+ul.tabs li a {
+	display: block;
+	width: 100px;
+	padding: 5px 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #888;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+#whereru_container {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+#whereru_non_widget_div, #whereru_vis_options {
+    float: left;
+}
+
+.whereru_code {
+    background: #fff;
+    padding: 5px;
+    color: #999;
+    border: 1px solid #ccc;
+    margin: 5px;
+    width: 220px;
+}
+
+#whereru_ops {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 500px;
+    background: #eee;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#whereru_container h2 {
+    margin:0px;
+    padding:0px;
+}
+
+#whereru_about_info {
+    width: 600px;
+    padding: 10px;
+}
+#whereru_about_info.h2 {
+    line-height: 15px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.form-table {
+    width: 600px;
+    border: 1px solid #ccc;
+}
+
+.whereru-h4 {
+    margin:0px;
+    padding:0px;
+}
+
+.whereru_activity_image {
+    text-align: center;
+    float: left;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #eee;
+    margin: 5px;
+}
+
+#whereru_activity_wrap {
+margin-left: 100px;
+}
+
+
+.whereru_code {
+margin-left: 175px;
+}

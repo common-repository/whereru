@@ -1,0 +1,80 @@
+/*
+CSS Name: Default Whereru Styles
+Description: Default WhereRU!? Stylesheet
+Author: Ray Gomez
+Version: 1.0
+*/
+
+.widgetcontainer#whereru-3 {
+    padding:0px !important;
+    border: 0px;
+    background: none repeat scroll 0 0 transparent;
+}
+
+.widget_WhereRU {
+    float: left;
+}
+
+.widget_WhereRU h2 {
+    /*float: left;*/
+    width: 100%;
+}
+
+#whereru_content_wrap {
+    max-width: 320px;
+    margin:auto;
+    border: 1px solid #222;
+    background: url('images/whereru-sidebar-small-white.png') 2px center no-repeat #444;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+
+.whereru_holiday {
+    background: url('images/pinacolada.png') right center no-repeat #FFF;
+}
+
+.whereru_business {
+    background: url('images/briefcase.png') right center no-repeat #FFF;
+}
+
+.whereru_backpacking {
+    background: url('images/rucksack.png') right center no-repeat #FFF;
+}
+
+#whereru_content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    min-height:100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+}
+
+.whereru_loc {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.whereru_prev_location, .whereru_curr_location, .whereru_next_location {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.whereru_prev_location h2, .whereru_curr_location h2, .whereru_next_location h2 {
+    margin: 0px;
+    padding-left: 10px;
+    /*padding-top: 10px;*/
+}
+.whereru_prev_location a, .whereru_curr_location a, .whereru_next_location a {
+    text-decoration: none;
+    color: #555;
+}
+
+.whereru_prev_location a:hover, .whereru_curr_location a:hover, .whereru_next_location a:hover {
+    color: #aaa;
+    text-decoration: underline;
+}

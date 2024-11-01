@@ -1,0 +1,3 @@
+#: whereru/whereru.php:
+msgid "Sign Out"
+msgstr ""
